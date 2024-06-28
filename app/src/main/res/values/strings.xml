@@ -17,8 +17,9 @@
 
     <string name="profilename">Halo, </string>
     <string name="edit">Edit Profile </string>
-    <string name="emojihand"> 👋</string>
 
     <!-- SignUp Page -->
 
+    <!-- Blog Page -->
+    <string name="tips">Pelajari tips menarik dari kami</string>
 </resources>
