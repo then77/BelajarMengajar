@@ -6,7 +6,19 @@
     <string name="ready">Sudah siap menjadi guru yang baik?</string>
     <string name="name">Siapa namamu?</string>
     <string name="button">MULAI!</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <!--Home-->
     <string name="question">Belajar apa hari ini?</string>
+    <!--Login Page-->
+    <string name="login">Login Sebelum mulai</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login"</string>
+    <string name="login_signUp">SignUp"</string>
+
+    <string name="profilename">Halo, </string>
+    <string name="edit">Edit Profile </string>
+    <string name="emojihand"> 👋</string>
+
+    <!-- SignUp Page -->
+
 </resources>

@@ -7,13 +7,11 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.belajarmengajarreal.R;
-import com.example.belajarmengajarreal.activities.MainActivity;
-
 public class SplashScreen extends AppCompatActivity {
 
     private static final String PREFS_NAME = "MyPrefsFile";
     private static final String PREFS_IS_LOGGED_IN = "isLoggedIn";
-    private static final int SPLASH_DISPLAY_LENGTH = 2000; // 2000 milliseconds = 2 seconds
+    private static final int SPLASH_DISPLAY_LENGTH = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +40,7 @@ public class SplashScreen extends AppCompatActivity {
     }
 
     private void goToLoginActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LoginPage.class);
         startActivity(intent);
         finish();
     }
