@@ -59,13 +59,12 @@
                 android:id="@+id/button_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/login_button"
-                android:textColor="?attr/colorSecondary"
                 android:backgroundTint="?attr/colorPrimary"
-                />
+                android:text="@string/login_button"
+                android:textColor="?attr/colorSecondary" />
 
             <Button
-                android:id="@+id/button_signUp"
+                android:id="@+id/button_signUp_Page"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/login_signUp"

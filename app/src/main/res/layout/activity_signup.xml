@@ -59,13 +59,21 @@
                 android:hint="@string/password"/>
 
             <Button
-                android:id="@+id/button_login"
+                android:id="@+id/button_signUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/login_signUp"
                 android:textColor="?attr/colorSecondary"
                 android:backgroundTint="?attr/colorPrimary"
                 />
+
+            <Button
+                android:id="@+id/button_login_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="?attr/colorPrimary"
+                android:text="@string/login_button"
+                android:textColor="?attr/colorSecondary" />
 
         </LinearLayout>
 
