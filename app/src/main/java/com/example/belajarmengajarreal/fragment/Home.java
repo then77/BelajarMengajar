@@ -10,11 +10,7 @@ import android.view.ViewGroup;
 
 import com.example.belajarmengajarreal.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Home#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class Home extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
