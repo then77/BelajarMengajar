@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.LoginPage">
+    tools:context=".activities.Signup">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -59,23 +59,12 @@
                 android:id="@+id/button_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/login_button"
-                android:textColor="?attr/colorSecondary"
-                android:backgroundTint="?attr/colorPrimary"
-                />
-
-            <Button
-                android:id="@+id/button_signUp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/login_signUp"
                 android:textColor="?attr/colorSecondary"
                 android:backgroundTint="?attr/colorPrimary"
                 />
 
-
         </LinearLayout>
-
 
     </androidx.cardview.widget.CardView>
 
