@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.Profile">
+    tools:context=".fragment.Profile"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,12 +21,14 @@
             android:src="@drawable/logo_2"/>
 
         <TextView
+
+            android:id="@+id/tvName"
             android:layout_marginStart="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/profilename"
-            android:textColor="@color/black"
-            android:textSize="25sp"/>
+            android:textSize="25sp"
+            android:textColor="?attr/colorPrimary"/>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -41,26 +44,29 @@
                 android:layout_height="match_parent">
 
                 <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivProfile"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:src="@drawable/baseline_person_24"/>
 
                 <TextView
+                    android:id="@+id/tvName2"
                     android:layout_marginStart="20dp"
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/profilename"
-                    android:textColor="@color/black"
-                    android:textSize="30dp"/>
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorPrimary"/>
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <Button
-            android:layout_marginHorizontal="20dp"
             android:id="@+id/button_start"
+            android:layout_marginHorizontal="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
