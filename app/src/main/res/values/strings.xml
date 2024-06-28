@@ -15,10 +15,13 @@
     <string name="login_button">Login"</string>
     <string name="login_signUp">SignUp"</string>
 
-    <string name="profilename">Halo, </string>
+    <string name="profilename">Halo,Nama</string>
     <string name="edit">Edit Profile </string>
-    <string name="emojihand"> 👋</string>
 
     <!-- SignUp Page -->
 
+    <!-- Blog Page -->
+    <string name="tips">Pelajari tips menarik dari kami</string>
+
+    <string name="back">Back</string>
 </resources>
