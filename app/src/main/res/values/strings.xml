@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Belajar Mengajar Real</string>
+
+    <!--Main Activity-->
+    <string name="welcome">Selamat Datang</string>
+    <string name="ready">Sudah siap menjadi guru yang baik?</string>
+    <string name="name">Siapa namamu?</string>
+    <string name="button">MULAI!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
